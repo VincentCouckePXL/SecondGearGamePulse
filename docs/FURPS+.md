@@ -7,9 +7,9 @@
 - **Dashboard en visualisaties:** Overzichtelijke grafieken en ranglijsten van populaire of trending games.
 - **Filtering en sortering:** Gebruikers kunnen games filteren op populariteit, rating, genre, prijs, platform, enz.
 - **Accountbeheer:** Gebruikers kunnen een profiel aanmaken en voorkeuren opslaan.
-- **Community Management:** Gebruikers kunnen communities aanmaken, beheren en deelnemen aan discussies.
+- **Community Management:** Gebruikers kunnen community's aanmaken, beheren en deelnemen aan discussies.
 - **Review Systeem:** Uitgebreid review systeem met ratings, likes en reporting functionaliteit.
-x- **Wishlist Management:** Persoonlijke wishlists met prijs monitoring.
+- **Wishlist Management:** Persoonlijke wishlists met prijs monitoring.
 - **Social Features:** Gebruikers volgen, berichten plaatsen en emoji reacties.
 - **Moderatie Tools:** Geavanceerde moderatie tools voor community beheerders en administrators.
 - **Zoekfunctionaliteit:** Geavanceerde zoekfuncties voor games en gebruikers.
@@ -40,14 +40,14 @@ x- **Wishlist Management:** Persoonlijke wishlists met prijs monitoring.
 - **Schaalbaarheid:** Horizontale schaling mogelijkheid voor groeiend gebruikersaantal.
 - **Optimalisatie:** Geoptimaliseerde afbeeldingen en lazy loading voor betere prestaties.
 - **Database performance:** Geoptimaliseerde queries en connection pooling.
-- **CDN integratie:** Gebruik van Content Delivery Network voor statische assets.
+- **CDN-integratie:** Gebruik van Content Delivery Network voor statische assets.
 ---
 ## Supportability
 - **Cross-platform webapplicatie:** De applicatie moet correct functioneren op verschillende apparaten en besturingssystemen (desktop, tablet, mobiel).
 - **Logging:** Uitgebreid logging systeem voor debugging en monitoring.
 - **Monitoring:** Real-time monitoring van applicatie performance en fouten.
 - **Onderhoudsmodus:** Mogelijkheid tot onderhoudsmodus zonder dataverlies.
-- **API documentatie:** Volledige documentatie van interne en externe API's.
+- **API-documentatie:** Volledige documentatie van interne en externe API's.
 - **Configuratiebeheer:** Eenvoudig beheer van applicatieconfiguraties.
 - **Testbaarheid:** Ondersteuning voor unit tests, integratietests en E2E tests.
 ---
@@ -65,13 +65,13 @@ x- **Wishlist Management:** Persoonlijke wishlists met prijs monitoring.
 - **Technologie stack:**
     - Frontend: React + TypeScript
     - Backend: Java Spring Boot
-    - Database: PostgreSQL + Redis
+    - Database: PostgresSQL + Redis
 - **Architectuur:** Microservices architectuur met API gateway.
 - **Containerization:** Docker containers voor consistentie across environments.
 - **CI/CD:** Geautomatiseerde deployment pipeline met testing.
 ---
 ### Interface
-- **RESTful APIs:** Gestandaardiseerde API design voor externe integraties.
+- **REST-APIs:** Gestandaardiseerde API design voor externe integraties.
 - **WebSocket:** Real-time communicatie voor chat en notificaties.
 - **Third-party integraties:** Steam, Epic Games, Twitch, YouTube APIs.
 - **Mobile responsiveness:** Mobile-first design approach.
