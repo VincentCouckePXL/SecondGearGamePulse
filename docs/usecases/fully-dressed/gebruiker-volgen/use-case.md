@@ -29,4 +29,9 @@
 **Additional Information:**
 - **Goal:** Gebruikers kunnen elkaar volgen om interactie en communityvorming te bevorderen.
 - **Overview:** Deze use case beschrijft het proces van volgen en ontvolgen tussen gebruikers, inclusief notificatie en statusbeheer.
-- **Cross-References:** ...
+- **Cross-References:**
+  - Registratie
+  - Profiel instellen
+  - Gebruikersprofiel bekijken
+  - Gebruiker zoeken
+  - Andere gebruiker blokkeren
