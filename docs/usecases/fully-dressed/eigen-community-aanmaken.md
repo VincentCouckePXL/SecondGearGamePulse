@@ -4,11 +4,11 @@
 - **Primary Actor:** Gebruiker
 - **Secondary Actor:** Systeem
 
-**Preconditions:**
+**Pre-conditions:**
 - De gebruiker is succesvol ingelogd in het systeem.
 - De gebruiker heeft geen actieve community met dezelfde naam.
 
-**Postconditions:**
+**Post-conditions:**
 - Een nieuwe community is aangemaakt en geregistreerd in het systeem.
 - De gebruiker krijgt automatisch de rol van community-eigenaar.
 - De community is zichtbaar in het algemene community-overzicht.
@@ -27,4 +27,6 @@
 **Additional Information:**
 - **Goal:** Gebruikers kunnen eigen communities aanmaken om specifieke interesses of thema’s te groeperen.
 - **Overview:** Deze use case behandelt het proces voor het initiëren van een nieuwe community en de automatische roltoewijzing van eigenaar.
-- **Cross References:** UC-AssignModerator, UC-JoinCommunity.
+- **Cross-References:**
+  - Community moderator aanstellen
+  - Aansluiten bij community

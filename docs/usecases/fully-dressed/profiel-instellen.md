@@ -22,6 +22,6 @@
 **Additional information**
 - **Goal:** Een profiel kan gepersonaliseerd worden naar de wensen van de gebruiker
 - **Overview:** Deze use case beschrijft het proces van de personalisatie van een gebruiker zijn profiel. Het beschrijft zowel de gebruikersacties en de achterliggende systeemacties die genomen worden.
-- **Cross References:** 
+- **Cross-References:** 
   - Registratie
   - Profiel aanpassen

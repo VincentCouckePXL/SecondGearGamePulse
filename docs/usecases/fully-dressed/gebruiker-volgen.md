@@ -4,15 +4,15 @@
 - **Primary Actor:** Gebruiker (Volger)
 - **Secondary Actor:** Systeem, Doelgebruiker
 
-**Preconditions:**
+**Pre-conditions:**
 - De gebruiker is succesvol ingelogd in het systeem.
 - De doelgebruiker heeft een openbaar profiel of accepteert volgers.
 - De volger volgt de doelgebruiker nog niet.
 
-**Postconditions:**
+**Post-conditions:**
 - De volger volgt de doelgebruiker succesvol.
 - De doelgebruiker ontvangt een melding van de nieuwe volger (indien meldingen actief zijn).
-- De systeemlog bevat een registratie van de volging.
+- Het systeem-logboek bevat een registratie van de volging.
 
 **Description:** Een gebruiker besluit een andere gebruiker te volgen om op de hoogte te blijven van diens activiteiten, posts of recensies.
 
@@ -29,4 +29,4 @@
 **Additional Information:**
 - **Goal:** Gebruikers kunnen elkaar volgen om interactie en communityvorming te bevorderen.
 - **Overview:** Deze use case beschrijft het proces van volgen en ontvolgen tussen gebruikers, inclusief notificatie en statusbeheer.
-- **Cross References:** ...
+- **Cross-References:** ...

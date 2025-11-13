@@ -4,14 +4,14 @@
 - **Primary Actor:** Community Eigenaar (Gebruiker)
 - **Secondary Actor:** Systeem, Geselecteerde Gebruiker
 
-**Preconditions:**
+**Pre-conditions:**
 - De community-eigenaar is succesvol ingelogd in het systeem.
 - De gebruiker heeft de rol van eigenaar in de betreffende community.
 - De te promoveren gebruiker is reeds lid van de community.
 
-**Postconditions:**
+**Post-conditions:**
 - De geselecteerde gebruiker is toegevoegd als moderator binnen de community.
-- De systeemlog bevat een record van de rolwijziging.
+- Het systeem-logboek bevat een record van de wijziging van de rol.
 - De nieuwe moderator krijgt toegang tot de moderatiefuncties binnen de community.
 
 **Description:** Een community-eigenaar stelt een bestaande gebruiker aan als moderator binnen zijn community om taken zoals contentbeheer en ledenbeheer te ondersteunen.
@@ -29,4 +29,4 @@
 **Additional Information:**
 - **Goal:** De community-eigenaar kan leden binnen zijn community promoveren tot moderator om moderatietaken te delegeren.
 - **Overview:** Deze use case beschrijft het proces waarbij een eigenaar een bestaande gebruiker extra rechten toekent.
-- **Cross References:** ...
+- **Cross-References:** ...

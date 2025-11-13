@@ -201,9 +201,9 @@ ___
 **Description:** Gebruiker bekijkt berichten in community chat  
 **Main Scenario:**
 1. Gebruiker opent community chat pagina
-2. Systeem laadt laatste 100 berichten (laden wanneer community geopended wordt) met oneindig scrollen (lazy loading)
+2. Systeem laadt laatste 100 berichten (laden wanneer community geopend wordt) met oneindig scrollen (lazy loading) en pagination (in de zin van telkens 100 nieuwe berichten inladen)
 3. Gebruiker ziet berichten met auteur, timestamp en emoji reacties
-4. Gebruiker scrollt door berichtgeschiedenis
+4. Gebruiker scrolt door berichtgeschiedenis
 5. Nieuwe berichten verschijnen automatisch onderaan
 6. Gebruiker kan op emoji reacties klikken om te zien wie gereageerd heeft
 
