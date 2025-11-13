@@ -8,11 +8,11 @@ ___
 **Main Scenario:**
 1. Gebruiker klikt "Register" op login pagina
 2. Systeem toont registratieformulier
-3. Gebruiker vult in: email, gebruikersnaam, wachtwoord, bevestig wachtwoord
+3. Gebruiker vult in: e-mail, gebruikersnaam, wachtwoord, bevestig wachtwoord
 4. Gebruiker accepteert terms & conditions
-5. Systeem valideert invoer en controleert unieke email/gebruikersnaam
-6. Systeem creëert nieuw account en verstuurt verificatie email
-7. Gebruiker bevestigt email via link
+5. Systeem valideert invoer en controleert unieke e-mail/gebruikersnaam
+6. Systeem creëert nieuw account en verstuurt verificatie e-mail
+7. Gebruiker bevestigt e-mail via link
 8. Systeem logt gebruiker automatisch in
 
 **Alternative Scenarios:**
@@ -31,7 +31,7 @@ ___
 **Description:** Bestaande gebruiker logt in op platform  
 **Main Scenario:**
 1. Gebruiker navigeert naar login pagina
-2. Gebruiker voert email/gebruikersnaam en wachtwoord in
+2. Gebruiker voert e-mail/gebruikersnaam en wachtwoord in
 3. Systeem authenticeert credentials
 4. Systeem start geauthenticeerde sessie
 5. Gebruiker wordt doorgestuurd naar dashboard
@@ -46,18 +46,18 @@ ___
 ___
 ### Use Case: Wachtwoord Reset
 
-**Actors:** Gebruiker, Systeem, Email Service   
-**Description:** Gebruiker reset vergeten wachtwoord via email verificatie  
-**Pre-conditions:** Gebruiker heeft een geregistreerd account met geverifieerd email adres  
+**Actors:** Gebruiker, Systeem, Email Service  
+**Description:** Gebruiker reset vergeten wachtwoord via e-mail verificatie  
+**Pre-conditions:** Gebruiker heeft een geregistreerd account met geverifieerd e-mailadres  
 
 **Main Scenario:**
 1. Gebruiker klikt "Wachtwoord vergeten?" op login pagina
 2. Systeem toont wachtwoord reset formulier
-3. Gebruiker voert email adres in
-4. Systeem valideert email format en zoekt bijbehorend account
+3. Gebruiker voert e-mailadres in
+4. Systeem valideert e-mail format en zoekt bijbehorend account
 5. Systeem genereert unieke reset token met expiry tijd (1 uur)
-6. Systeem verstuurt email met reset link naar gebruiker
-7. Gebruiker ontvangt email en klikt op reset link
+6. Systeem verstuurt e-mail met reset link naar gebruiker
+7. Gebruiker ontvangt e-mail en klikt op reset link
 8. Systeem valideert reset token en toont wachtwoord reset pagina
 9. Gebruiker voert nieuw wachtwoord in (tweemaal voor bevestiging)
 10. Systeem valideert wachtwoord en zijn sterkte
@@ -68,11 +68,11 @@ ___
 
 **Alternative Scenarios:**
 - Onbekend Email Adres:
-  - Gebruiker voert email in dat niet in systeem geregistreerd is, systeem toont melding: "Indien dit email adres bij ons bekend is, ontvangt u een reset link"
+  - Gebruiker voert e-mail in dat niet in systeem geregistreerd is, systeem toont melding: "Indien dit e-mailadres bij ons bekend is, ontvangt u een reset link"
 - Ongeldige Reset Token:
   -  Gebruiker klikt op verlopen reset link (ouder dan 1 uur), systeem toont foutmelding: "Reset link is verlopen of ongeldig"
 - Meerdere Reset Pogingen:
-  - Gebruiker vraagt meerdere reset emails aan binnen korte tijd, systeem toont "Te veel pogingen, probeer het later opnieuw"
+  - Gebruiker vraagt meerdere reset e-mails aan binnen korte tijd, systeem toont "Te veel pogingen, probeer het later opnieuw"
 - Zwak wachtwoord:
   - Systeem toont wachtwoord vereisten
 - Bevestiging wachtwoord komt niet overeen:
@@ -167,7 +167,7 @@ ___
 **Main Scenario:**
 1. Eigenaar bekijkt community ledenlijst
 2. Eigenaar selecteert gebruiker voor moderator rol
-3. Systeem toont moderator rechten en verantwoordelijkheden
+3. Systeem toont moderator-rechten en verantwoordelijkheden
 4. Eigenaar bevestigt aanstelling
 5. Systeem update gebruiker rol naar moderator
 6. Nieuwe moderator ontvangt notificatie
@@ -180,7 +180,7 @@ ___
 **Main Scenario:**
 1. Gebruiker navigeert naar community chat sectie
 2. Gebruiker klikt in bericht invoerveld
-3. Gebruiker typt bericht inhoud (max 1500 karakters)
+3. Gebruiker typt bericht inhoud (max. 1500 karakters)
 4. Gebruiker kan afbeelding toevoegen
 5. Gebruiker klikt "Versturen"
 6. Systeem valideert bericht (niet leeg, binnen lengtelimiet, geen vulgair taalgebruik)
@@ -270,7 +270,7 @@ ___
 **Actors:** Gebruiker, Systeem  
 **Description:** Gebruiker bekijkt wie welke emoji reacties heeft gegeven  
 **Main Scenario:**
-1. Gebruiker hover over emoji reactie onder een bericht
+1. Gebruiker hovert over emoji reactie onder een bericht
 2. Gebruiker klikt op emoji reactie voor volledige lijst
 3. Systeem toont modal met alle gebruikers die deze reactie gegeven hebben
 4. Gebruiker kan door de lijst scrollen
@@ -288,7 +288,7 @@ ___
 **Main Scenario:**
 1. Gebruiker bekijkt game detail pagina
 2. Gebruiker klikt "Follow Game"
-3. Systeem voegt game toe aan gebruiker's gevolgde games
+3. Systeem voegt game toe aan gebruiker zijn gevolgde games
 4. Gebruiker ontvangt notificaties bij game updates
 5. Game verschijnt in lijst van favoriete games
 ___
@@ -323,7 +323,7 @@ ___
 - Geblokkeerde gebruiker:
     - Gebruiker probeert profiel te bekijken van iemand die hen geblokkeerd heeft, systeem toont "Je hebt geen toegang tot dit profiel"
 - Eigen profiel bekijken:
-    - Systeem toont bewerkingsopties en privé statistieken, dit betekent preview modus hoe profiel eruit ziet voor anderen
+    - Systeem toont bewerkingsopties en privéstatistieken, dit betekent preview modus hoe profiel eruit ziet voor anderen
 ---
 ### Use Case: Gebruiker Zoeken
 **Actors:** Gebruiker, Systeem  
@@ -367,7 +367,7 @@ ___
 **Actors:** Gebruiker, Systeem  
 **Description:** Gebruiker vergelijkt meerdere games side-by-side  
 **Main Scenario:**
-1. Gebruiker selecteert games voor vergelijking (max 4)
+1. Gebruiker selecteert games voor vergelijking (max. 4)
 2. Gebruiker klikt "Compare Games"
 3. Systeem toont comparison dashboard
 4. Gebruiker ziet vergelijking van prijs, ratings, features
@@ -394,14 +394,14 @@ ___
 2. Systeem toont alle wishlist games
 3. Gebruiker ziet huidige prijzen en prijsgeschiedenis
 4. Gebruiker kan sorteren op toegevoegd datum, prijs, etc.
-5. Systeem toont prijs alerts voor wishlist items
+5. Systeem toont prijswaarschuwingen voor wishlist items
 ___
 ### Use Case: Wishlist Update
 **Actors:** Gebruiker, Systeem  
 **Description:** Gebruiker bewerkt wishlist
 **Main Scenario:**
 1. Gebruiker opent wishlist beheer
-2. Gebruiker stelt prijs alerts in per game
+2. Gebruiker stelt prijswaarschuwingen in per game
 3. Gebruiker voegt notities toe aan wishlist items
 4. Systeem slaat wijzigingen op
 ___
@@ -432,7 +432,7 @@ ___
 **Actors:** Gebruiker, Systeem  
 **Description:** Gebruiker leest reviews voor game  
 **Main Scenario:**
-1. Gebruiker scrollt naar review sectie op game pagina
+1. Gebruiker scrolt naar review sectie op game pagina
 2. Systeem toont gepagineerde reviews
 3. Gebruiker kan filteren op rating, helpfulness, datum
 4. Gebruiker leest volledige review content
@@ -561,7 +561,7 @@ ___
 3. Eigenaar/moderator selecteert "Deblokkeer Gebruiker"
 4. Systeem toont bevestigingsdialoog met blokkeringsgeschiedenis
 5. Eigenaar/moderator bevestigt de deblokkering
-6. Systeem herstelt gebruiker's toegang tot de community
+6. Systeem herstelt gebruiker zijn toegang tot de community
 7. Systeem verwijdert blokkeringsrestricties
 8. Gebruiker ontvangt notificatie over deblokkering
 9. Gebruiker kan opnieuw deelnemen aan community activiteiten
@@ -570,8 +570,8 @@ ___
 **Alternative Scenarios:**
 - Als de blokkering automatisch was verlopen:
   - Systeem toont "Blokkering is reeds verlopen" en biedt optie voor handmatige bevestiging
-- Als de gebruiker meerdere communities beheert:
-  - Systeem toont waarschuwing "Deze gebruiker beheert X communities, wees zeker van deblokkering"
+- Als de gebruiker meerdere community's beheert:
+  - Systeem toont waarschuwing "Deze gebruiker beheert X community's, wees zeker van deblokkering"
 - Als er lopende reports zijn tegen de gebruiker:
   - Systeem toont waarschuwing met details van actieve reports
 - Als deblokkering tijdens community evenement plaatsvindt:
@@ -632,7 +632,7 @@ ___
  - **Secondary Actor:** Systeem    
 **Main scenario:**
 1. Administrator navigeert naar het moderatie-dashboard of rapportbeheer. Systeem toont een overzichtspagina van alle ontvangen rapporten, inclusief datum, rapporterende gebruiker, type content, en status
-2. Administrator selecteert filtercriteria (naam, datum, type content, reden voor rapportatie, ...). Systeem past de filters toe en vernieuwt de pagina met overeenkomende meldingen.
+2. Administrator selecteert filtercriteria (naam, datum, type content, reden voor rapportering, ...). Systeem past de filters toe en vernieuwt de pagina met overeenkomende meldingen.
 3. Administrator kiest een specifiek rapport uit de lijst. Systeem laadt de inhoud van het geselecteerde rapport.
 4. Administrator onderneemt actie (verwijderen van review of berichten, blokkeren van gebruiker, markeren als spam rapport, ...). Systeem voert de gekozen actie uit, wijzigt de status van het rapport en logt de actie.
 
