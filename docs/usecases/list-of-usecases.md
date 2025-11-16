@@ -16,6 +16,7 @@ ___
   - Eigen aanmaken (Fully dressed)
   - Eigen verwijderen
   - Moderator aanstellen (bij eigen community) (Fully dressed)
+  - Community beheren
 - **Post**
   - CRUD (Fully dressed)
 - **Chat**
