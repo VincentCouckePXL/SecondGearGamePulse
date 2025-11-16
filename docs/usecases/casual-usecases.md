@@ -172,6 +172,28 @@ ___
 5. Systeem update gebruiker rol naar moderator
 6. Nieuwe moderator ontvangt notificatie
 ___
+### Use Case: Community Beheren
+**Actors:** Community Eigenaar, Systeem  
+**Description:** Eigenaar beheert instellingen en leden van zijn community  
+**Main Scenario:**
+1. Eigenaar navigeert naar community beheer dashboard
+2. Systeem toont beheeropties: instellingen, ledenbeheer, content moderatie
+3. Eigenaar past community instellingen aan (naam, beschrijving, regels, privacy)
+4. Eigenaar beheert ledenlijst en roltoewijzingen
+5. Eigenaar bekijkt community statistieken en activiteiten
+6. Eigenaar past moderatie-instellingen aan
+7. Systeem slaat alle wijzigingen op en past ze direct toe
+
+**Alternative Scenarios:**
+- Community naam niet beschikbaar bij wijziging:
+  - Systeem toont foutmelding "Community naam is al in gebruik" en suggereert alternatieven
+- Ongeldige instellingen:
+  - Systeem toont specifieke foutmeldingen voor ongeldige invoer (bijv. "Beschrijving mag maximaal 500 karakters bevatten")
+- Geen beheerrechten:
+  - Gebruiker probeert community te beheren zonder eigenaarsrechten, systeem toont "Je hebt geen rechten om deze community te beheren"
+- Lege ledenlijst:
+  - Systeem toont melding "Nog geen leden" met uitnodigingsopties
+---
 # Community Bericht Use Cases
 
 ### Use Case: Bericht Plaatsen
