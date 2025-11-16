@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="PDzEW781wgYdE6liEyAo">
+    <mxGraphModel dx="896" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pcACFEnNCxjxfLz43hz1-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="160" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-4" value="FIeld" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-5" value="Content" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-6" value="Operation" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-7" value="Cross-References" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-8" value="Pre-conditions" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-9" value="Post-conditions" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-10" value="setupProfile(input: ProfileInput)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcACFEnNCxjxfLz43hz1-11" value="Use Case: Create Profile" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLeTwQiUNlaHhRce4qf-4" value="SSD: setup profile, save changes" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLeTwQiUNlaHhRce4qf-5" value="- The user has a profile" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLeTwQiUNlaHhRce4qf-6" value="- The user has a customised profile with an avatar, bio, privacylevel and preferred platforms" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLeTwQiUNlaHhRce4qf-7" value="- Other users can now become friends with them" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="600" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
