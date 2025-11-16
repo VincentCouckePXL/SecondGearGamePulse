@@ -30,5 +30,6 @@
 - **Goal:** De community-eigenaar kan leden binnen zijn community promoveren tot moderator om moderatietaken te delegeren.
 - **Overview:** Deze use case beschrijft het proces waarbij een eigenaar een bestaande gebruiker extra rechten toekent.
 - **Cross-References:**
-  - Community moderator aanstellen
-  - Aansluiten bij community
+  - Use Case: Community moderator aanstellen
+  - Use Case: Aansluiten bij community
+  - Use Case: Community Beheren
