@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="9bmYzyIqYFhOSd6mMeEN">
+    <mxGraphModel dx="1103" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="590" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="750" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-4" value="FIeld" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-5" value="Content" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-6" value="Operation" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-7" value="Cross-References" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-8" value="Pre-conditions" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-9" value="Post-conditions" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-10" value="follow(user: int, target: int)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-11" value="Use Case: Setup Profile, Lookup User" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-12" value="SSD: lookup user, click &quot;Follow&quot;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-13" value="- Users exist with the given IDs" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-14" value="- Both users have setup their profile" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-15" value="- The user isn&#39;t already following the target user" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-16" value="- The user hasn&#39;t blocked -or isn&#39;t blocked by the target user" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-17" value="- The user is now following the target user" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F9K8GuY1aQhCdSuFWveW-18" value="- The target user&#39;s amount of followers is incremented by 1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="595" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
