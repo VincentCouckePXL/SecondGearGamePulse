@@ -178,7 +178,7 @@ ___
 **Main Scenario:**
 1. Eigenaar navigeert naar community beheer dashboard
 2. Systeem toont beheeropties: instellingen, ledenbeheer, content moderatie
-3. Eigenaar past community instellingen aan (naam, beschrijving, regels, privacy)
+3. Eigenaar past community instellingen aan (naam, beschrijving, regels)
 4. Eigenaar beheert ledenlijst en roltoewijzingen
 5. Eigenaar bekijkt community statistieken en activiteiten
 6. Eigenaar past moderatie-instellingen aan
