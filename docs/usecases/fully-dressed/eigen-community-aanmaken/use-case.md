@@ -29,7 +29,7 @@
 |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | 1. Gebruiker navigeert naar overzichtspagina van game               | 1. Systeem geeft overzichtspagina weer                                                                                        |
 | 2. Gebruiker navigeert naar de sectie “Communities”.                | 2. Systeem toont een overzicht van bestaande communities met knoppen “join” en “nieuwe community maken”.                      |
-| 3. Gebruiker klikt op “Nieuwe community aanmaken”.                  | 3. Systeem toont een formulier met velden voor naam, beschrijving en regels.                                    |
+| 3. Gebruiker klikt op “Nieuwe community aanmaken”.                  | 3. Systeem toont een formulier met velden voor naam, beschrijving en regels.                                                  |
 | 4. Gebruiker vult de vereiste velden in en bevestigt.               | 4. Systeem valideert de ingevoerde data (unieke naam, verplichte velden).                                                     |
 | 5. Gebruiker vult optionele velden zoals tags en afbeelding.        | 5. Systeem toont real-time feedback zoals “banner geüpload”, “tag toegevoegd”.                                                |
 | 6. Gebruiker klikt op “community aanmaken”.                         | 6. Systeem voert server-side validatie uit: unieke naam, verplichte velden, beschrijving ≤ 1500 karakters.                    |
