@@ -1,0 +1,485 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="-adh8ogLn02FeW2DM6jn">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="145" y="196" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-2" value=":Online&lt;div&gt;&lt;br&gt;GamePulse&lt;br&gt;Systeem&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="196" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-3" value=":Web Administrator" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="68" y="161" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-4" value="sd Online_GamePulse" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=220;height=30;" parent="1" vertex="1">
+          <mxGeometry x="20" y="100" width="770" height="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-5" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="330" width="730" height="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="Zsp8HGXMyZWrSDrmQGt6-9" target="Zsp8HGXMyZWrSDrmQGt6-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1120" as="sourcePoint" />
+            <mxPoint x="140" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="Zsp8HGXMyZWrSDrmQGt6-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609.9999999999995" y="438" as="sourcePoint" />
+            <mxPoint x="590" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.187;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Zsp8HGXMyZWrSDrmQGt6-4" target="Zsp8HGXMyZWrSDrmQGt6-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1120" as="sourcePoint" />
+            <mxPoint x="163" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="152" y="370" width="17" height="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="601.5" y="666" width="17" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.059;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="666" as="sourcePoint" />
+            <mxPoint x="601" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-12" value="filter&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;rapporteringen&amp;nbsp;&lt;/span&gt;met filter criteria" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.077" relative="1" as="geometry">
+            <mxPoint x="13" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="601.5" y="2128" width="17" height="331" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.059;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="2128" as="sourcePoint" />
+            <mxPoint x="601" y="2128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-15" value="bevestig" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.1696" y="1" relative="1" as="geometry">
+            <mxPoint x="46" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="706" as="sourcePoint" />
+            <mxPoint x="169" y="707" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-17" value="toont gefilterde rapporteringen" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="324" y="701" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-18" value="&lt;div&gt;voert geselecteerde actie uit&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="618.5" y="2185" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-19" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;Systeemsequentiediagram&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="68" y="20" width="610" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.768;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Zsp8HGXMyZWrSDrmQGt6-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="611" y="910" as="sourcePoint" />
+            <mxPoint x="609.9999999999995" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-21" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;wijzigt rapport status&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-22" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;maakt moderatie log aan&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2320" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="618.5" y="2210" as="sourcePoint" />
+            <mxPoint x="618.5" y="2240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="2226" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-24" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="2278.5" as="sourcePoint" />
+            <mxPoint x="620" y="2308.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="771.5" y="2288.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-25" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="616.5" y="2415" as="sourcePoint" />
+            <mxPoint x="616.5" y="2445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="768" y="2436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="2184.5" as="sourcePoint" />
+            <mxPoint x="169" y="2185.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-27" value="navigeert terug naar report overview" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-26" vertex="1" connectable="0">
+          <mxGeometry x="0.0545" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="601.5" y="397" width="17" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.059;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="397" as="sourcePoint" />
+            <mxPoint x="601" y="397" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-30" value="navigeer naar rapporteringen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.077" relative="1" as="geometry">
+            <mxPoint x="13" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="437" as="sourcePoint" />
+            <mxPoint x="169" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-32" value="toont overzicht van rapporteringen (max 50)" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="324" y="432" width="256" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-33" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="625" width="670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-34" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="68" y="861" width="670" height="549" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="599.5" y="956.29" width="17" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.059;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167" y="956.29" as="sourcePoint" />
+            <mxPoint x="599" y="956.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-37" value="klik op gebruiker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.158" relative="1" as="geometry">
+            <mxPoint x="43" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="598" y="996.29" as="sourcePoint" />
+            <mxPoint x="167" y="997.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-39" value="navigeert naar gebruiker profiel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-38" vertex="1" connectable="0">
+          <mxGeometry x="0.0545" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-40" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;verwittig relevante gebruikers&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2390" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-41" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="2350" as="sourcePoint" />
+            <mxPoint x="620" y="2380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="2361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-42" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="68" y="1481" width="670" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-43" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="68" y="1611" width="670" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-44" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="68" y="1772.5" width="670" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="807" as="sourcePoint" />
+            <mxPoint x="610" y="807" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-46" value="selecteer specifieke&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;rapportering&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-45" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="126" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="600.5" y="526" width="17" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.059;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="168" y="526" as="sourcePoint" />
+            <mxPoint x="600" y="526" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-49" value="vraagt meer report&#39;s op" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-48" vertex="1" connectable="0">
+          <mxGeometry x="-0.077" relative="1" as="geometry">
+            <mxPoint x="13" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="599" y="566" as="sourcePoint" />
+            <mxPoint x="168" y="567" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-51" value="toont overzicht van 50 andere rapporteringen" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="323" y="561" width="267" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-52" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="69" y="485" width="670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-53" value="Inspecteer specifiek onderdeel van rapportering" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="261" y="881" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-54" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="81.5" y="930" width="628.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="599.5" y="1075.29" width="17" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.059;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167" y="1075.29" as="sourcePoint" />
+            <mxPoint x="599" y="1075.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-57" value="klik op bericht" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-56" vertex="1" connectable="0">
+          <mxGeometry x="-0.158" relative="1" as="geometry">
+            <mxPoint x="43" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="598" y="1115.29" as="sourcePoint" />
+            <mxPoint x="167" y="1116.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-59" value="navigeert naar plaats van bericht" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-58" vertex="1" connectable="0">
+          <mxGeometry x="0.0545" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-60" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="81.5" y="1050" width="628.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="599.5" y="1321.29" width="17" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.059;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167" y="1321.29" as="sourcePoint" />
+            <mxPoint x="599" y="1321.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-63" value="klik op community" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-62" vertex="1" connectable="0">
+          <mxGeometry x="-0.158" relative="1" as="geometry">
+            <mxPoint x="43" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-64" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="598" y="1361.29" as="sourcePoint" />
+            <mxPoint x="167" y="1362.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-65" value="navigeert naar community" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0" parent="Zsp8HGXMyZWrSDrmQGt6-64" vertex="1" connectable="0">
+          <mxGeometry x="0.0545" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-66" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=1;" parent="1" vertex="1">
+          <mxGeometry x="81.5" y="1286" width="628.5" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="599.5" y="1196.29" width="17" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.059;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167" y="1196.29" as="sourcePoint" />
+            <mxPoint x="599" y="1196.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-69" value="klik op review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-68" vertex="1" connectable="0">
+          <mxGeometry x="-0.158" relative="1" as="geometry">
+            <mxPoint x="43" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="598" y="1236.29" as="sourcePoint" />
+            <mxPoint x="167" y="1237.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-71" value="navigeert naar review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-70" vertex="1" connectable="0">
+          <mxGeometry x="0.0545" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-72" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="81.5" y="1170" width="628.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-73" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="168" y="1447" as="sourcePoint" />
+            <mxPoint x="610" y="1447" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="429" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-74" value="selecteer &quot;Permanent Blokkeren&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-73" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="109" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-75" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="1520" as="sourcePoint" />
+            <mxPoint x="610" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="1533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-76" value="selecteer &quot;Tijdelijk Blokkeren&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-75" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="107" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-77" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="1566" as="sourcePoint" />
+            <mxPoint x="610" y="1566" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="1579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-78" value="vul &quot;Eind Datum&quot; in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-77" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="110" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-79" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="1656" as="sourcePoint" />
+            <mxPoint x="610" y="1656" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="1669" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-80" value="selecteer &quot;Ontbind Community&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-79" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="110" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-81" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167" y="1822" as="sourcePoint" />
+            <mxPoint x="610" y="1822" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="428" y="1835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-82" value="selecteer &quot;Verwijder Review&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-81" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="110" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-83" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="68" y="1691" width="670" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-84" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="1736" as="sourcePoint" />
+            <mxPoint x="610" y="1736" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-85" value="selecteer &quot;Waarschuw&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-84" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="110" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-86" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="168" y="2062" as="sourcePoint" />
+            <mxPoint x="610" y="2062" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="429" y="2075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-87" value="voeg een admin comment toe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-86" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="110" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-88" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="68" y="2022" width="670" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-89" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1840" width="650" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-90" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="142" y="1865" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-91" value="Neem Actie Tegen Gebruiker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="313" y="1871" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-92" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="67.75" y="1946" width="670" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-93" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="1990.5" as="sourcePoint" />
+            <mxPoint x="610" y="1990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="2003.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-94" value="selecteer &quot;Dismiss&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-93" vertex="1" connectable="0">
+          <mxGeometry x="-0.4603" relative="1" as="geometry">
+            <mxPoint x="110" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.094;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600.5" y="2150" as="sourcePoint" />
+            <mxPoint x="169.5" y="2151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zsp8HGXMyZWrSDrmQGt6-96" value="update report&amp;nbsp;status &quot;processing&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zsp8HGXMyZWrSDrmQGt6-95" vertex="1" connectable="0">
+          <mxGeometry x="0.0545" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
